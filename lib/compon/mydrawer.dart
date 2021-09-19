@@ -29,7 +29,7 @@ class MyDrawer extends StatelessWidget {
               size: 24,
             ),
             onTap: () {
-              print("Tapped 1");
+              Navigator.of(context).pushNamed('homepage');
             },
           ),
           ListTile(

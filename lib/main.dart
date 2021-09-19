@@ -15,6 +15,9 @@ class MyApp extends StatelessWidget {
       routes: {
         'categories': (context) {
           return Categories();
+        },
+        'homepage': (context) {
+          return Home();
         }
       },
     );
